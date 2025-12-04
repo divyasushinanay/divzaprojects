@@ -1,0 +1,14 @@
+D:\FCA-Project\Backend\SkillTrackPro\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\FCA-Project\Backend\SkillTrackPro\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+D:\FCA-Project\Backend\SkillTrackPro\Domain\bin\Debug\net8.0\Domain.dll
+D:\FCA-Project\Backend\SkillTrackPro\Domain\bin\Debug\net8.0\Domain.pdb
+D:\FCA-Project\Backend\SkillTrackPro\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\FCA-Project\Backend\SkillTrackPro\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\FCA-Project\Backend\SkillTrackPro\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\FCA-Project\Backend\SkillTrackPro\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\FCA-Project\Backend\SkillTrackPro\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\FCA-Project\Backend\SkillTrackPro\Domain\obj\Debug\net8.0\Domain.dll
+D:\FCA-Project\Backend\SkillTrackPro\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\FCA-Project\Backend\SkillTrackPro\Domain\obj\Debug\net8.0\Domain.pdb
+D:\FCA-Project\Backend\SkillTrackPro\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+D:\FCA-Project\Backend\SkillTrackPro\Domain\obj\Debug\net8.0\ref\Domain.dll
