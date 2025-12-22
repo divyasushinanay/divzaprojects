@@ -6,16 +6,21 @@ using System.Threading.Tasks;
 
 namespace Domain.Models
 {
-    public class Attendance
+   public class Attendance
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
 
-        public int StudentId { get; set; }
-        public Student? Student { get; set; }
+        public Guid StudentId { get; set; }
+        public Guid CoachId { get; set; }
 
+        // store date only (time component normalized)
         public DateTime Date { get; set; }
 
         public bool IsPresent { get; set; }
+
+        // navigation (optional)
+        public Student? Student { get; set; }
+        public Coach? Coach { get; set; }
     }
 
 }

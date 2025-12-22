@@ -65,11 +65,12 @@ namespace Domain.Migrations
 
             modelBuilder.Entity("Domain.Models.Attendance", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("uniqueidentifier");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    b.Property<Guid>("CoachId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
@@ -77,10 +78,12 @@ namespace Domain.Migrations
                     b.Property<bool>("IsPresent")
                         .HasColumnType("bit");
 
-                    b.Property<int>("StudentId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("StudentId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CoachId");
 
                     b.HasIndex("StudentId");
 
@@ -92,6 +95,9 @@ namespace Domain.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
@@ -130,11 +136,9 @@ namespace Domain.Migrations
 
             modelBuilder.Entity("Domain.Models.Event", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -157,11 +161,9 @@ namespace Domain.Migrations
 
             modelBuilder.Entity("Domain.Models.FeePayment", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<decimal>("Amount")
                         .HasColumnType("decimal(18,2)");
@@ -180,20 +182,21 @@ namespace Domain.Migrations
                     b.Property<int>("StudentId")
                         .HasColumnType("int");
 
+                    b.Property<Guid?>("StudentId1")
+                        .HasColumnType("uniqueidentifier");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("StudentId");
+                    b.HasIndex("StudentId1");
 
                     b.ToTable("FeePayments");
                 });
 
             modelBuilder.Entity("Domain.Models.Parent", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Address")
                         .HasColumnType("nvarchar(max)");
@@ -251,22 +254,23 @@ namespace Domain.Migrations
                     b.Property<int>("StudentId")
                         .HasColumnType("int");
 
+                    b.Property<Guid?>("StudentId1")
+                        .HasColumnType("uniqueidentifier");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CoachId1");
 
-                    b.HasIndex("StudentId");
+                    b.HasIndex("StudentId1");
 
                     b.ToTable("PerformanceReviews");
                 });
 
             modelBuilder.Entity("Domain.Models.Student", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("Age")
                         .HasColumnType("int");
@@ -290,8 +294,8 @@ namespace Domain.Migrations
                     b.Property<double>("Height")
                         .HasColumnType("float");
 
-                    b.Property<int>("ParentId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("ParentId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("PhotoUrl")
                         .HasColumnType("nvarchar(max)");
@@ -311,31 +315,11 @@ namespace Domain.Migrations
 
             modelBuilder.Entity("Domain.Models.Attendance", b =>
                 {
-                    b.HasOne("Domain.Models.Student", "Student")
-                        .WithMany()
-                        .HasForeignKey("StudentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Student");
-                });
-
-            modelBuilder.Entity("Domain.Models.FeePayment", b =>
-                {
-                    b.HasOne("Domain.Models.Student", "Student")
-                        .WithMany()
-                        .HasForeignKey("StudentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Student");
-                });
-
-            modelBuilder.Entity("Domain.Models.PerformanceReview", b =>
-                {
                     b.HasOne("Domain.Models.Coach", "Coach")
                         .WithMany()
-                        .HasForeignKey("CoachId1");
+                        .HasForeignKey("CoachId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("Domain.Models.Student", "Student")
                         .WithMany()
@@ -348,20 +332,39 @@ namespace Domain.Migrations
                     b.Navigation("Student");
                 });
 
+            modelBuilder.Entity("Domain.Models.FeePayment", b =>
+                {
+                    b.HasOne("Domain.Models.Student", "Student")
+                        .WithMany()
+                        .HasForeignKey("StudentId1");
+
+                    b.Navigation("Student");
+                });
+
+            modelBuilder.Entity("Domain.Models.PerformanceReview", b =>
+                {
+                    b.HasOne("Domain.Models.Coach", "Coach")
+                        .WithMany()
+                        .HasForeignKey("CoachId1");
+
+                    b.HasOne("Domain.Models.Student", "Student")
+                        .WithMany()
+                        .HasForeignKey("StudentId1");
+
+                    b.Navigation("Coach");
+
+                    b.Navigation("Student");
+                });
+
             modelBuilder.Entity("Domain.Models.Student", b =>
                 {
                     b.HasOne("Domain.Models.Parent", "Parent")
-                        .WithMany("Students")
+                        .WithMany()
                         .HasForeignKey("ParentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Parent");
-                });
-
-            modelBuilder.Entity("Domain.Models.Parent", b =>
-                {
-                    b.Navigation("Students");
                 });
 #pragma warning restore 612, 618
         }

@@ -26,11 +26,12 @@ namespace Domain.Models
             base.OnModelCreating(builder);
 
             // Example constraints and relationships
-            builder.Entity<Parent>()
-                .HasMany(p => p.Students)
-                .WithOne(s => s.Parent)
-                .HasForeignKey(s => s.ParentId)
-                .OnDelete(DeleteBehavior.Cascade);
+            builder.Entity<Student>()
+                 .HasOne(s => s.Parent)
+                 .WithMany()            // Parent has NO Students list in your model
+                 .HasForeignKey(s => s.ParentId)
+                 .OnDelete(DeleteBehavior.Cascade);
+
 
             // Seed a default Admin (optional) — use hashed password in real app
             builder.Entity<Academy>().HasData(new Academy

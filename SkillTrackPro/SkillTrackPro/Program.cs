@@ -1,6 +1,7 @@
 using Domain.Extensions;
 using Domain.Models;
 using Domain.Services.Auth;
+using Domain.Services.Attendances;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;

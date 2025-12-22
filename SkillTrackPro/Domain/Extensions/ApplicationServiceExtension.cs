@@ -1,13 +1,14 @@
 ﻿
 using Domain.Helpers;
-using Domain.Helpers;
+
 using Domain.Models;
-using Domain.Models;
-using Domain.Services;
+
+
 using Domain.Services.Academy;
 using Domain.Services.Academy.Interface;
-using Domain.Services.Attendance;
-using Domain.Services.Attendance.Interface;
+using Domain.Services.Attendances;
+using Domain.Services.Attendances.Interface;
+
 using Domain.Services.Auth;
 using Domain.Services.Coaches;
 using Domain.Services.Coaches.Interface;
@@ -19,8 +20,9 @@ using Domain.Services.Parent;
 using Domain.Services.Parent.Interface;
 using Domain.Services.Performance;
 using Domain.Services.Performance.Interface;
-using Domain.Services.Student;
-using Domain.Services.Student.Interface;
+using Domain.Services.Studentz;
+using Domain.Services.Studentz.Interface;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -47,7 +49,8 @@ namespace Domain.Extensions
             services.AddScoped<IEventRepository, EventRepository>();
             services.AddScoped<IFeesRepository, FeesRepository>();
             services.AddScoped<IPerformanceRepository, PerformanceRepository>();
-
+            services.AddScoped<IStudentRepository, StudentRepository>();
+         services.AddScoped<IStudentService, StudentService>();
 
             // Register Services
 

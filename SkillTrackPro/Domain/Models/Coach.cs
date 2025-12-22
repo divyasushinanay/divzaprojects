@@ -17,7 +17,7 @@ namespace Domain.Models
         public int ExperienceYears { get; set; }
         public string? PhotoUrl { get; set; }
         public bool IsActive { get; set; } = true;
-
+        public string? Address { get; set; }
         public string? OTP { get; set; }
         public DateTime? OTPExpiry { get; set; }
 

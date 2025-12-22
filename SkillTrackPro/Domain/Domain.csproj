@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Services\Academy\Dtos\" />
-    <Folder Include="Services\Attendance\DTO\" />
     <Folder Include="Services\Event\DTO\" />
     <Folder Include="Services\Fees\DTO\" />
     <Folder Include="Services\Parent\DTO\" />

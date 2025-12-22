@@ -8,8 +8,7 @@ namespace Domain.Models
 {
     public class Parent
     {
-        public int Id { get; set; }
-
+        public Guid Id { get; set; } = Guid.NewGuid();
         public string FullName { get; set; } = string.Empty;
 
         public string PhoneNumber { get; set; } = string.Empty;
@@ -20,8 +19,8 @@ namespace Domain.Models
 
         public bool IsActive { get; set; } = true;
 
-        // Relationship
-        public ICollection<Student>? Students { get; set; }
+     
+      
   
 
         // OTP Login fields

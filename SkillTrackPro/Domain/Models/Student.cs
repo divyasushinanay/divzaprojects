@@ -11,7 +11,7 @@ namespace Domain.Models
 
     public class Student
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
 
         public string FullName { get; set; } = string.Empty;
 
@@ -32,7 +32,7 @@ namespace Domain.Models
 
         public string? PhotoUrl { get; set; }
 
-        public int ParentId { get; set; }
+        public Guid ParentId { get; set; }
         public Parent? Parent { get; set; }
     }
 

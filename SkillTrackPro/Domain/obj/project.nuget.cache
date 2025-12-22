@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2UU+gXiffkU=",
+  "dgSpecHash": "oQFlf/jEBlo=",
   "success": true,
-  "projectFilePath": "D:\\FCA-Project\\Backend\\SkillTrackPro\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KDN\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\KDN\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
