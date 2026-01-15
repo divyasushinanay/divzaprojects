@@ -8,65 +8,42 @@ using System.Net;
 using System.Net.Mail;
 
 
+public class EmailService : IEmailService
+{
+    private readonly EmailSettings _settings;
 
-
-
-
-    //private readonly EmailSettings _settings;
-
-
-    //public EmailService(IOptions<EmailSettings> settings)
-    //{
-    //    _settings = settings.Value;
-    //}
-
-    //public async Task SendEmailAsync(string to, string subject, string body)
-    //{
-    //    var email = new MimeMessage();
-    //    email.From.Add(new MailboxAddress("SkillTrackPro", _settings.FromEmail));
-    //    email.To.Add(new MailboxAddress("", to));
-    //    email.Subject = subject;
-
-    //    email.Body = new TextPart("plain") { Text = body };
-
-    //    using var smtp = new SmtpClient();
-    //    await smtp.ConnectAsync(_settings.SmtpServer, _settings.Port, false);
-    //    await smtp.AuthenticateAsync(_settings.Username, _settings.Password);
-    //    await smtp.SendAsync(email);
-    //    await smtp.DisconnectAsync(true);
-    //}
-
-    public class EmailService : IEmailService
+    public EmailService(IOptions<EmailSettings> options)
     {
-        private readonly EmailSettings _emailSettings;
-
-        public EmailService(IOptions<EmailSettings> emailSettings)
-        {
-            _emailSettings = emailSettings.Value;
-        }
-
-        public async Task SendEmailAsync(string toEmail, string subject, string message)
-        {
-            using (var smtp = new System.Net.Mail.SmtpClient())
-            {
-                smtp.Host = _emailSettings.Host;
-                smtp.Port = _emailSettings.Port;
-                smtp.EnableSsl = true;
-
-                smtp.Credentials = new NetworkCredential(_emailSettings.Email, _emailSettings.Password);
-
-                var mail = new MailMessage()
-                {
-                    From = new MailAddress(_emailSettings.Email),
-                    Subject = subject,
-                    Body = message,
-                    IsBodyHtml = true
-                };
-
-                mail.To.Add(toEmail);
-
-                await smtp.SendMailAsync(mail);
-            }
-        }
+        _settings = options.Value;
     }
+
+    public async Task SendEmailAsync(string toEmail, string subject, string message)
+    {
+        var email = new MimeMessage();
+        email.From.Add(new MailboxAddress("SkillTrackPro", _settings.Email));
+        email.To.Add(MailboxAddress.Parse(toEmail));
+        email.Subject = subject;
+
+        email.Body = new TextPart("plain")
+        {
+            Text = message
+        };
+
+        using var smtp = new MailKit.Net.Smtp.SmtpClient();
+
+        await smtp.ConnectAsync(
+            _settings.Host,
+            _settings.Port,
+            SecureSocketOptions.StartTls
+        );
+
+        await smtp.AuthenticateAsync(
+            _settings.Email,
+            _settings.Password
+        );
+
+        await smtp.SendAsync(email);
+        await smtp.DisconnectAsync(true);
+    }
+}
 

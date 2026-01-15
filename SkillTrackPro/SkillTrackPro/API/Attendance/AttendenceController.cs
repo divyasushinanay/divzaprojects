@@ -10,7 +10,7 @@ namespace SkillTrackPro.API.Attendance
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize] // requires JWT
+    //[Authorize] // requires JWT
     public class AttendanceController : ControllerBase
     {
         private readonly IAttendanceService _attendanceService;
@@ -19,37 +19,29 @@ namespace SkillTrackPro.API.Attendance
         {
             _attendanceService = attendanceService;
         }
-
-        // Mark multiple students (coachId taken from token)
+        [Authorize(Roles = "Coach")]
         [HttpPost("mark")]
-        public async Task<IActionResult> MarkAttendance([FromBody] IEnumerable<MarkAttendanceDto> dto)
+        public async Task<IActionResult> MarkAttendance(
+            [FromBody] List<MarkAttendanceDto> dto)
         {
-            if (dto == null || !dto.Any()) return BadRequest("No attendance provided.");
+            if (dto == null || !dto.Any())
+                return BadRequest("No attendance provided.");
 
-            var coachIdClaim = User.FindFirst("id") ?? User.FindFirst(ClaimTypes.NameIdentifier);
-            if (coachIdClaim == null) return Unauthorized();
+            // Get CoachId from JWT
+            var coachIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (coachIdClaim == null)
+                return Unauthorized("Coach not authenticated.");
 
-            if (!Guid.TryParse(coachIdClaim.Value, out var coachId))
-                return Unauthorized("Invalid token coach id.");
+            if (!Guid.TryParse(coachIdClaim.Value, out Guid coachId))
+                return Unauthorized("Invalid coach token.");
 
             await _attendanceService.MarkAttendanceAsync(coachId, dto);
-            return Ok(new { message = "Attendance recorded" });
-        }
 
-        // Get attendance for a student (optional from/to query yyyy-MM-dd)
-        [HttpGet("student/{studentId}")]
-        public async Task<IActionResult> GetStudentAttendance(Guid studentId, [FromQuery] DateTime? from = null, [FromQuery] DateTime? to = null)
-        {
-            var result = await _attendanceService.GetAttendanceByStudentAsync(studentId, from, to);
-            return Ok(result);
-        }
-
-        // Get attendance for coach (optional from/to)
-        [HttpGet("coach/{coachId}")]
-        public async Task<IActionResult> GetCoachAttendance(Guid coachId, [FromQuery] DateTime? from = null, [FromQuery] DateTime? to = null)
-        {
-            var result = await _attendanceService.GetAttendanceByCoachAsync(coachId, from, to);
-            return Ok(result);
+            return Ok(new
+            {
+                message = "Attendance marked successfully",
+                date = DateTime.UtcNow.Date
+            });
         }
     }
 }

@@ -70,5 +70,10 @@ namespace Domain.Services.Studentz
             await _repository.DeleteAsync(student);
             return true;
         }
+
+        public async Task<List<Student>> GetStudentsByParentIdAsync(Guid parentId)
+        {
+            return await _repository.GetByParentIdAsync(parentId);
+        }
     }
 }

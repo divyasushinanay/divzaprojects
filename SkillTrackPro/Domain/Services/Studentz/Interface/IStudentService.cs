@@ -19,5 +19,9 @@ namespace Domain.Services.Studentz.Interface
         Task<bool> UpdateStudentAsync(Guid id, StudentUpdateDto dto);
 
         Task<bool> DeleteStudentAsync(Guid id);
+
+
+        Task<List<Student>> GetStudentsByParentIdAsync(Guid parentId);
     }
+       
 }

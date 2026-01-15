@@ -46,5 +46,10 @@ namespace Domain.Services.Auth
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
+        public string GenerateToken(Guid id, string email, string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

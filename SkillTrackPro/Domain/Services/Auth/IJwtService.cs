@@ -9,5 +9,6 @@ namespace Domain.Services.Auth
     public interface IJwtService
     {
         string GenerateToken(Guid id, string name, string email, string role);
+        string GenerateToken(Guid id, string email, string v);
     }
 }

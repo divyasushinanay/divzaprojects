@@ -19,7 +19,15 @@ namespace Domain.Services.Studentz
                 _context = context;
             }
 
-            public async Task<Student> AddAsync(Student student)
+        public async Task<List<Student>> GetByParentIdAsync(Guid parentId)
+        {
+            return await _context.Students
+                .Where(s => s.ParentId == parentId)
+                .ToListAsync();
+        }
+
+
+        public async Task<Student> AddAsync(Student student)
             {
                 _context.Students.Add(student);
                 await _context.SaveChangesAsync();
@@ -51,5 +59,7 @@ namespace Domain.Services.Studentz
                 _context.Students.Remove(student);
                 await _context.SaveChangesAsync();
             }
-        }
+
+        
+    }
     }

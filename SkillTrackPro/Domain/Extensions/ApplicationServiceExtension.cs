@@ -16,8 +16,9 @@ using Domain.Services.Event;
 using Domain.Services.Event.Interface;
 using Domain.Services.Fees;
 using Domain.Services.Fees.Interface;
-using Domain.Services.Parent;
-using Domain.Services.Parent.Interface;
+
+using Domain.Services.Parentz;
+using Domain.Services.Parentz.Interface;
 using Domain.Services.Performance;
 using Domain.Services.Performance.Interface;
 using Domain.Services.Studentz;

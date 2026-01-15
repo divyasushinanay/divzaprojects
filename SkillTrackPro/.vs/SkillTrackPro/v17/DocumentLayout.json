@@ -3,48 +3,99 @@
   "WorkspaceRootPath": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251222113838_stidf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Migrations\\20251222113838_stidf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\skilltrackpro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|solutionrelative:skilltrackpro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\migrations\\20251222112714_stid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\migrations\\20251222112714_stid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KDN\\AppData\\Local\\SourceServer\\f290108051a1d74207b3924d1c5a10e8fc33b00d45a0613b18a1aab10f5b36dc\\SkillTrackPro\\SkillTrackPro\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\skilltrackpro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|solutionrelative:skilltrackpro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\dto\\verifyotprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\dto\\verifyotprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\dto\\emailrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\dto\\emailrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\extensions\\applicationserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\extensions\\applicationserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\skilltrackpro\\api\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|solutionrelative:skilltrackpro\\api\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\skilltrackpro\\api\\attendance\\attendencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|solutionrelative:skilltrackpro\\api\\attendance\\attendencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\attendances\\dto\\markattendancerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\attendances\\dto\\markattendancerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\attendances\\dto\\markattendacedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\attendances\\dto\\markattendacedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\attendances\\dto\\attendanceresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\attendances\\dto\\attendanceresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\attendances\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\attendances\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\attendances\\interface\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\attendances\\interface\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\skilltrackpro\\api\\student\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|solutionrelative:skilltrackpro\\api\\student\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\parentz\\parentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\parentz\\parentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\studentz\\interface\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\studentz\\interface\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\studentz\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\studentz\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\studentz\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\studentz\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\studentz\\interface\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\studentz\\interface\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\skilltrackpro\\api\\student\\studentrequestobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|solutionrelative:skilltrackpro\\api\\student\\studentrequestobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\skilltrackpro\\api\\attendance\\attendencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|solutionrelative:skilltrackpro\\api\\attendance\\attendencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\enum\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\enum\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\studentz\\dto\\studentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,44 +106,12 @@
       "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\studentz\\dto\\studentupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\enum\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\enum\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\enum\\bloodgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\enum\\bloodgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\extensions\\applicationserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\extensions\\applicationserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\skilltrackpro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|solutionrelative:skilltrackpro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\attendances\\interface\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\attendances\\interface\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\attendances\\dto\\markattendancerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\attendances\\dto\\markattendancerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\attendances\\dto\\attendanceresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\attendances\\dto\\attendanceresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\models\\feepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,26 +120,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\migrations\\20251216085232_updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\migrations\\20251216085232_updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\models\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\models\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\migrations\\20251212105122_added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\migrations\\20251212105122_added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\attendances\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\attendances\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\attendances\\interface\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\attendances\\interface\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\coaches\\interface\\icoachrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,64 +146,8 @@
       "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\coaches\\dto\\coachprofileupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\skilltrackpro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|solutionrelative:skilltrackpro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\migrations\\20251204092530_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\migrations\\20251204092530_otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\skilltrackpro\\api\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|solutionrelative:skilltrackpro\\api\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\dto\\sendotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\dto\\sendotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\models\\emailsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\models\\emailsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\coaches\\coachrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\coaches\\coachrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\coaches\\coachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\coaches\\coachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\coaches\\interface\\icoachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\coaches\\interface\\icoachservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\auth\\dto\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\auth\\dto\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\skilltrackpro\\api\\event\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -217,10 +160,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\skilltrackpro\\api\\coach\\coachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|solutionrelative:skilltrackpro\\api\\coach\\coachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\migrations\\20251126114329_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\migrations\\20251126114329_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\coaches\\dto\\coachregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -249,10 +188,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\models\\performanereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\models\\performanereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\parent\\parentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\parent\\parentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\fees\\feesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -291,14 +226,6 @@
       "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\performance\\interface\\iperformancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\parent\\interface\\iparentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\parent\\interface\\iparentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\parent\\interface\\iparentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\parent\\interface\\iparentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\services\\fees\\interface\\ifeesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\services\\fees\\interface\\ifeesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -331,24 +258,8 @@
       "RelativeMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|solutionrelative:skilltrackpro\\api\\fees\\feescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\skilltrackpro\\api\\parent\\parentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|solutionrelative:skilltrackpro\\api\\parent\\parentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\skilltrackpro\\skilltrackpro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5D642A50-CF12-4BE9-A165-EBC48DD390B0}|SkillTrackPro\\SkillTrackPro.csproj|solutionrelative:skilltrackpro\\skilltrackpro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\migrations\\20251125100518_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\migrations\\20251125100518_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\migrations\\20251204115307_coach-address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\migrations\\20251204115307_coach-address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|d:\\fca-project\\divzaprojects\\skilltrackpro\\domain\\migrations\\20251216085319_stupdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2EFD831-A79C-465E-94DC-365BF7F1B03E}|Domain\\Domain.csproj|solutionrelative:domain\\migrations\\20251216085319_stupdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -358,179 +269,315 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IAttendanceRepository.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\Interface\\IAttendanceRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Attendances\\Interface\\IAttendanceRepository.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\Interface\\IAttendanceRepository.cs",
-              "RelativeToolTip": "Domain\\Services\\Attendances\\Interface\\IAttendanceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\JwtService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\JwtService.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\JwtService.cs",
+              "RelativeToolTip": "Domain\\Services\\Auth\\JwtService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T10:31:26.79Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\AppDbContext.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "Domain\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:41:07.931Z",
+              "WhenOpened": "2026-01-15T09:52:53.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20251222113838_stidf.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251222113838_stidf.cs",
-              "RelativeDocumentMoniker": "Domain\\Migrations\\20251222113838_stidf.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251222113838_stidf.cs",
-              "RelativeToolTip": "Domain\\Migrations\\20251222113838_stidf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Auth\\AuthController.cs",
+              "RelativeDocumentMoniker": "SkillTrackPro\\API\\Auth\\AuthController.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Auth\\AuthController.cs",
+              "RelativeToolTip": "SkillTrackPro\\API\\Auth\\AuthController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:38:40.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20251222112714_stid.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251222112714_stid.cs",
-              "RelativeDocumentMoniker": "Domain\\Migrations\\20251222112714_stid.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251222112714_stid.cs",
-              "RelativeToolTip": "Domain\\Migrations\\20251222112714_stid.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:27:18.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Studentz\\StudentService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Studentz\\StudentService.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Studentz\\StudentService.cs",
-              "RelativeToolTip": "Domain\\Services\\Studentz\\StudentService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T11:48:20.266Z",
+              "WhenOpened": "2026-01-13T10:56:41.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Student\\StudentController.cs",
-              "RelativeDocumentMoniker": "SkillTrackPro\\API\\Student\\StudentController.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Student\\StudentController.cs",
-              "RelativeToolTip": "SkillTrackPro\\API\\Student\\StudentController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvwoAAAAfAAAAAAAAAA==",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\AuthService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\AuthService.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\AuthService.cs",
+              "RelativeToolTip": "Domain\\Services\\Auth\\AuthService.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAcwOEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T10:00:45.455Z",
+              "WhenOpened": "2026-01-13T10:59:44.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
+              "Title": "EmailRequestDto.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\Dto\\EmailRequestDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\Dto\\EmailRequestDto.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\Dto\\EmailRequestDto.cs",
+              "RelativeToolTip": "Domain\\Services\\Auth\\Dto\\EmailRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T09:01:15.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VerifyOtpRequestDto.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\Dto\\VerifyOtpRequestDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\Dto\\VerifyOtpRequestDto.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\Dto\\VerifyOtpRequestDto.cs",
+              "RelativeToolTip": "Domain\\Services\\Auth\\Dto\\VerifyOtpRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T09:03:31.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\EmailService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\EmailService.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\EmailService.cs",
+              "RelativeToolTip": "Domain\\Services\\Auth\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T09:04:04.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationServiceExtension.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Extensions\\ApplicationServiceExtension.cs",
+              "RelativeDocumentMoniker": "Domain\\Extensions\\ApplicationServiceExtension.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Extensions\\ApplicationServiceExtension.cs",
+              "RelativeToolTip": "Domain\\Extensions\\ApplicationServiceExtension.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T05:44:18.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\Program.cs",
+              "RelativeDocumentMoniker": "SkillTrackPro\\Program.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\Program.cs",
+              "RelativeToolTip": "SkillTrackPro\\Program.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAiwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T10:03:44.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\IJwtService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\IJwtService.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\IJwtService.cs",
+              "RelativeToolTip": "Domain\\Services\\Auth\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T10:45:57.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KDN\\AppData\\Local\\SourceServer\\f290108051a1d74207b3924d1c5a10e8fc33b00d45a0613b18a1aab10f5b36dc\\SkillTrackPro\\SkillTrackPro\\Program.cs",
+              "ToolTip": "C:\\Users\\KDN\\AppData\\Local\\SourceServer\\f290108051a1d74207b3924d1c5a10e8fc33b00d45a0613b18a1aab10f5b36dc\\SkillTrackPro\\SkillTrackPro\\Program.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAASwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T11:18:08.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\IEmailService.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\IEmailService.cs",
+              "RelativeToolTip": "Domain\\Services\\Auth\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T10:41:45.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\appsettings.json",
+              "RelativeDocumentMoniker": "SkillTrackPro\\appsettings.json",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\appsettings.json",
+              "RelativeToolTip": "SkillTrackPro\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T10:17:27.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AttendanceResponseDto.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\DTO\\AttendanceResponseDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Attendances\\DTO\\AttendanceResponseDto.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\DTO\\AttendanceResponseDto.cs",
+              "RelativeToolTip": "Domain\\Services\\Attendances\\DTO\\AttendanceResponseDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T10:24:40.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MarkAttendaceDto.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\DTO\\MarkAttendaceDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Attendances\\DTO\\MarkAttendaceDto.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\DTO\\MarkAttendaceDto.cs",
+              "RelativeToolTip": "Domain\\Services\\Attendances\\DTO\\MarkAttendaceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:58:17.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Helpers\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Domain\\Helpers\\MappingProfile.cs",
               "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Helpers\\MappingProfile.cs",
               "RelativeToolTip": "Domain\\Helpers\\MappingProfile.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAmwCMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:29:29.215Z"
+              "WhenOpened": "2025-12-12T08:29:29.215Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\IAuthService.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\IAuthService.cs",
+              "RelativeToolTip": "Domain\\Services\\Auth\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T11:55:30.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MarkAttendanceRequestDto.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\DTO\\MarkAttendanceRequestDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Attendances\\DTO\\MarkAttendanceRequestDto.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\DTO\\MarkAttendanceRequestDto.cs",
+              "RelativeToolTip": "Domain\\Services\\Attendances\\DTO\\MarkAttendanceRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:09:04.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "AttendenceController.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Attendance\\AttendenceController.cs",
               "RelativeDocumentMoniker": "SkillTrackPro\\API\\Attendance\\AttendenceController.cs",
               "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Attendance\\AttendenceController.cs",
               "RelativeToolTip": "SkillTrackPro\\API\\Attendance\\AttendenceController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-20T10:40:55.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
+              "Title": "IAttendanceService.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\Interface\\IAttendanceService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Attendances\\Interface\\IAttendanceService.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\Interface\\IAttendanceService.cs",
+              "RelativeToolTip": "Domain\\Services\\Attendances\\Interface\\IAttendanceService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T10:32:22.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AttendanceRepository.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\AttendanceRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Attendances\\AttendanceRepository.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\AttendanceRepository.cs",
+              "RelativeToolTip": "Domain\\Services\\Attendances\\AttendanceRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwDgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T05:45:42.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Attendance.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Models\\Attendance.cs",
+              "RelativeToolTip": "Domain\\Models\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T08:48:02.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Student.cs",
               "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Models\\Student.cs",
               "RelativeToolTip": "Domain\\Models\\Student.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAADwvyAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA8wCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T08:44:12.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T08:44:12.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Studentz\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Studentz\\StudentRepository.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Studentz\\StudentRepository.cs",
-              "RelativeToolTip": "Domain\\Services\\Studentz\\StudentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Enum\\Gender.cs",
+              "RelativeDocumentMoniker": "Domain\\Enum\\Gender.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Enum\\Gender.cs",
+              "RelativeToolTip": "Domain\\Enum\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T11:47:53.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T09:40:41.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Studentz\\Interface\\IStudentService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Studentz\\Interface\\IStudentService.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Studentz\\Interface\\IStudentService.cs",
-              "RelativeToolTip": "Domain\\Services\\Studentz\\Interface\\IStudentService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "ParentRepository.cs",
+              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Parentz\\ParentRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\Parentz\\ParentRepository.cs",
+              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Parentz\\ParentRepository.cs",
+              "RelativeToolTip": "Domain\\Services\\Parentz\\ParentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T11:49:03.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T05:56:27.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StudentRequestObject.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Student\\StudentRequestObject.cs",
-              "RelativeDocumentMoniker": "SkillTrackPro\\API\\Student\\StudentRequestObject.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Student\\StudentRequestObject.cs",
-              "RelativeToolTip": "SkillTrackPro\\API\\Student\\StudentRequestObject.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAxwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T10:00:16.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IStudentRepository.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Studentz\\Interface\\IStudentRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Studentz\\Interface\\IStudentRepository.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Studentz\\Interface\\IStudentRepository.cs",
-              "RelativeToolTip": "Domain\\Services\\Studentz\\Interface\\IStudentRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T11:48:41.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "StudentUpdateDto.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Studentz\\DTO\\StudentUpdateDto.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Studentz\\DTO\\StudentUpdateDto.cs",
@@ -542,19 +589,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "StudentCreateDto.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Studentz\\DTO\\StudentCreateDto.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Studentz\\DTO\\StudentCreateDto.cs",
               "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Studentz\\DTO\\StudentCreateDto.cs",
               "RelativeToolTip": "Domain\\Services\\Studentz\\DTO\\StudentCreateDto.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowBEAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA7wBEAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T09:48:10.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 26,
               "Title": "BloodGroup.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Enum\\BloodGroup.cs",
               "RelativeDocumentMoniker": "Domain\\Enum\\BloodGroup.cs",
@@ -566,43 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Gender.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Enum\\Gender.cs",
-              "RelativeDocumentMoniker": "Domain\\Enum\\Gender.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Enum\\Gender.cs",
-              "RelativeToolTip": "Domain\\Enum\\Gender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T09:40:41.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ApplicationServiceExtension.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Extensions\\ApplicationServiceExtension.cs",
-              "RelativeDocumentMoniker": "Domain\\Extensions\\ApplicationServiceExtension.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Extensions\\ApplicationServiceExtension.cs",
-              "RelativeToolTip": "Domain\\Extensions\\ApplicationServiceExtension.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T05:44:18.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\Program.cs",
-              "RelativeDocumentMoniker": "SkillTrackPro\\Program.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\Program.cs",
-              "RelativeToolTip": "SkillTrackPro\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T11:14:35.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Class1.cs",
               "RelativeDocumentMoniker": "Domain\\Class1.cs",
@@ -614,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "FeePayment.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Models\\FeePayment.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\FeePayment.cs",
@@ -626,43 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MarkAttendanceRequestDto.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\DTO\\MarkAttendanceRequestDto.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Attendances\\DTO\\MarkAttendanceRequestDto.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\DTO\\MarkAttendanceRequestDto.cs",
-              "RelativeToolTip": "Domain\\Services\\Attendances\\DTO\\MarkAttendanceRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T11:09:04.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Attendance.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Models\\Attendance.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Attendance.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Models\\Attendance.cs",
-              "RelativeToolTip": "Domain\\Models\\Attendance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T08:48:02.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AttendanceResponseDto.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\DTO\\AttendanceResponseDto.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Attendances\\DTO\\AttendanceResponseDto.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\DTO\\AttendanceResponseDto.cs",
-              "RelativeToolTip": "Domain\\Services\\Attendances\\DTO\\AttendanceResponseDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T10:24:40.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "Event.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Models\\Event.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Event.cs",
@@ -671,78 +646,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T08:49:20.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Parent.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Models\\Parent.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Parent.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Models\\Parent.cs",
-              "RelativeToolTip": "Domain\\Models\\Parent.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAoAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T08:57:38.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IAttendanceService.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\Interface\\IAttendanceService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Attendances\\Interface\\IAttendanceService.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\Interface\\IAttendanceService.cs",
-              "RelativeToolTip": "Domain\\Services\\Attendances\\Interface\\IAttendanceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T10:32:22.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 86,
-              "Title": "20251216085319_stupdated.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251216085319_stupdated.cs",
-              "RelativeDocumentMoniker": "Domain\\Migrations\\20251216085319_stupdated.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251216085319_stupdated.cs",
-              "RelativeToolTip": "Domain\\Migrations\\20251216085319_stupdated.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T08:53:19.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "20251212105122_added.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251212105122_added.cs",
-              "RelativeDocumentMoniker": "Domain\\Migrations\\20251212105122_added.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251212105122_added.cs",
-              "RelativeToolTip": "Domain\\Migrations\\20251212105122_added.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T10:51:24.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "20251216085232_updated.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251216085232_updated.cs",
-              "RelativeDocumentMoniker": "Domain\\Migrations\\20251216085232_updated.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251216085232_updated.cs",
-              "RelativeToolTip": "Domain\\Migrations\\20251216085232_updated.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T08:52:34.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AttendanceRepository.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\AttendanceRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Attendances\\AttendanceRepository.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Attendances\\AttendanceRepository.cs",
-              "RelativeToolTip": "Domain\\Services\\Attendances\\AttendanceRepository.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAUAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T05:45:42.505Z"
             },
             {
               "$type": "Document",
@@ -818,55 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
-              "Title": "20251204115307_coach-address.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251204115307_coach-address.cs",
-              "RelativeDocumentMoniker": "Domain\\Migrations\\20251204115307_coach-address.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251204115307_coach-address.cs",
-              "RelativeToolTip": "Domain\\Migrations\\20251204115307_coach-address.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T11:53:07.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "SendOtpDto.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\Dto\\SendOtpDto.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\Dto\\SendOtpDto.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\Dto\\SendOtpDto.cs",
-              "RelativeToolTip": "Domain\\Services\\Auth\\Dto\\SendOtpDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T10:10:03.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\EmailService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\EmailService.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\EmailService.cs",
-              "RelativeToolTip": "Domain\\Services\\Auth\\EmailService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAA4wEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T09:13:19.974Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\AuthService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\AuthService.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\AuthService.cs",
-              "RelativeToolTip": "Domain\\Services\\Auth\\AuthService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAcwEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T08:31:06.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 36,
               "Title": "EmailSetting.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Models\\EmailSetting.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\EmailSetting.cs",
@@ -878,139 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "CoachRepository.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Coaches\\CoachRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Coaches\\CoachRepository.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Coaches\\CoachRepository.cs",
-              "RelativeToolTip": "Domain\\Services\\Coaches\\CoachRepository.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowD0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T05:48:05.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\JwtService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\JwtService.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\JwtService.cs",
-              "RelativeToolTip": "Domain\\Services\\Auth\\JwtService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:17:57.914Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 37,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\appsettings.json",
-              "RelativeDocumentMoniker": "SkillTrackPro\\appsettings.json",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\appsettings.json",
-              "RelativeToolTip": "SkillTrackPro\\appsettings.json",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-04T10:17:27.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\IAuthService.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\IAuthService.cs",
-              "RelativeToolTip": "Domain\\Services\\Auth\\IAuthService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T08:28:55.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Auth\\AuthController.cs",
-              "RelativeDocumentMoniker": "SkillTrackPro\\API\\Auth\\AuthController.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Auth\\AuthController.cs",
-              "RelativeToolTip": "SkillTrackPro\\API\\Auth\\AuthController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAqwEgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T08:35:41.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "20251204092530_otp.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251204092530_otp.cs",
-              "RelativeDocumentMoniker": "Domain\\Migrations\\20251204092530_otp.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251204092530_otp.cs",
-              "RelativeToolTip": "Domain\\Migrations\\20251204092530_otp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:25:31.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "CoachService.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Coaches\\CoachService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Coaches\\CoachService.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Coaches\\CoachService.cs",
-              "RelativeToolTip": "Domain\\Services\\Coaches\\CoachService.cs",
-              "ViewState": "AgIAALUAAAAAAAAAAAAwwNUAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T05:48:25.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ICoachService.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Coaches\\Interface\\ICoachService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Coaches\\Interface\\ICoachService.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Coaches\\Interface\\ICoachService.cs",
-              "RelativeToolTip": "Domain\\Services\\Coaches\\Interface\\ICoachService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAAB0AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T10:33:44.191Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "IJwtService.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\IJwtService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\IJwtService.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\IJwtService.cs",
-              "RelativeToolTip": "Domain\\Services\\Auth\\IJwtService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:17:30.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\IEmailService.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\IEmailService.cs",
-              "RelativeToolTip": "Domain\\Services\\Auth\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T09:12:59.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "VerifyOtpDto.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\Dto\\VerifyOtpDto.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Auth\\Dto\\VerifyOtpDto.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Auth\\Dto\\VerifyOtpDto.cs",
-              "RelativeToolTip": "Domain\\Services\\Auth\\Dto\\VerifyOtpDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T10:10:31.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
               "Title": "EventsController.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Event\\EventsController.cs",
               "RelativeDocumentMoniker": "SkillTrackPro\\API\\Event\\EventsController.cs",
@@ -1022,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 38,
               "Title": "AcademyController.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Academy\\AcademyController.cs",
               "RelativeDocumentMoniker": "SkillTrackPro\\API\\Academy\\AcademyController.cs",
@@ -1034,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 39,
               "Title": "CoachController.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Coach\\CoachController.cs",
               "RelativeDocumentMoniker": "SkillTrackPro\\API\\Coach\\CoachController.cs",
@@ -1046,19 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "20251126114329_second.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251126114329_second.cs",
-              "RelativeDocumentMoniker": "Domain\\Migrations\\20251126114329_second.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251126114329_second.cs",
-              "RelativeToolTip": "Domain\\Migrations\\20251126114329_second.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T11:43:30.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 41,
               "Title": "CoachUpdateDto.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Coaches\\DTO\\CoachUpdateDto.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Coaches\\DTO\\CoachUpdateDto.cs",
@@ -1070,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 40,
               "Title": "CoachRegisterDto.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Coaches\\DTO\\CoachRegisterDto.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Coaches\\DTO\\CoachRegisterDto.cs",
@@ -1082,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 42,
               "Title": "CoachResponseDto.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Coaches\\DTO\\CoachResponseDto.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Coaches\\DTO\\CoachResponseDto.cs",
@@ -1094,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 43,
               "Title": "PerformanceRepository.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Performance\\PerformanceRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Performance\\PerformanceRepository.cs",
@@ -1106,19 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
-              "Title": "20251125100518_InitialCreate.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251125100518_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Domain\\Migrations\\20251125100518_InitialCreate.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Migrations\\20251125100518_InitialCreate.cs",
-              "RelativeToolTip": "Domain\\Migrations\\20251125100518_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T10:05:19.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 44,
               "Title": "CoachingSlot.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Enum\\CoachingSlot.cs",
               "RelativeDocumentMoniker": "Domain\\Enum\\CoachingSlot.cs",
@@ -1130,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 45,
               "Title": "SportsCategory.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Enum\\SportsCategory.cs",
               "RelativeDocumentMoniker": "Domain\\Enum\\SportsCategory.cs",
@@ -1142,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 46,
               "Title": "PerformaneReview.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Models\\PerformaneReview.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\PerformaneReview.cs",
@@ -1154,19 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "ParentRepository.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Parent\\ParentRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Parent\\ParentRepository.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Parent\\ParentRepository.cs",
-              "RelativeToolTip": "Domain\\Services\\Parent\\ParentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T05:56:27.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 47,
               "Title": "FeesService.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Fees\\FeesService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Fees\\FeesService.cs",
@@ -1178,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 48,
               "Title": "FeesRepository.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Fees\\FeesRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Fees\\FeesRepository.cs",
@@ -1190,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 49,
               "Title": "PerformanceService.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Performance\\PerformanceService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Performance\\PerformanceService.cs",
@@ -1202,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 50,
               "Title": "EventService.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Event\\EventService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Event\\EventService.cs",
@@ -1214,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 51,
               "Title": "EventRepository.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Event\\EventRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Event\\EventRepository.cs",
@@ -1226,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 52,
               "Title": "AcademyService.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Academy\\AcademyService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Academy\\AcademyService.cs",
@@ -1238,7 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 53,
               "Title": "AcademyRepository.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Academy\\AcademyRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Academy\\AcademyRepository.cs",
@@ -1250,7 +937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 54,
               "Title": "IPerformanceService.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Performance\\Interface\\IPerformanceService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Performance\\Interface\\IPerformanceService.cs",
@@ -1262,7 +949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 55,
               "Title": "IPerformanceRepository.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Performance\\Interface\\IPerformanceRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Performance\\Interface\\IPerformanceRepository.cs",
@@ -1274,31 +961,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "IParentRepository.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Parent\\Interface\\IParentRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Parent\\Interface\\IParentRepository.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Parent\\Interface\\IParentRepository.cs",
-              "RelativeToolTip": "Domain\\Services\\Parent\\Interface\\IParentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T10:49:09.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "IParentService.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Parent\\Interface\\IParentService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\Parent\\Interface\\IParentService.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Parent\\Interface\\IParentService.cs",
-              "RelativeToolTip": "Domain\\Services\\Parent\\Interface\\IParentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T10:47:23.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 56,
               "Title": "IFeesService.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Fees\\Interface\\IFeesService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Fees\\Interface\\IFeesService.cs",
@@ -1310,7 +973,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 57,
               "Title": "IFeesRepository.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Fees\\Interface\\IFeesRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Fees\\Interface\\IFeesRepository.cs",
@@ -1322,7 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 58,
               "Title": "IEventService.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Event\\Interface\\IEventService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Event\\Interface\\IEventService.cs",
@@ -1334,7 +997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 59,
               "Title": "IEventRepository.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Event\\Interface\\IEventRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Event\\Interface\\IEventRepository.cs",
@@ -1346,7 +1009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 60,
               "Title": "IAcademyService.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Academy\\Interface\\IAcademyService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Academy\\Interface\\IAcademyService.cs",
@@ -1358,7 +1021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 61,
               "Title": "IAcademyRepository.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\Domain\\Services\\Academy\\Interface\\IAcademyRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\Academy\\Interface\\IAcademyRepository.cs",
@@ -1370,7 +1033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 62,
               "Title": "PerformanceController.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Performance\\PerformanceController.cs",
               "RelativeDocumentMoniker": "SkillTrackPro\\API\\Performance\\PerformanceController.cs",
@@ -1382,7 +1045,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 63,
               "Title": "FeesController.cs",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Fees\\FeesController.cs",
               "RelativeDocumentMoniker": "SkillTrackPro\\API\\Fees\\FeesController.cs",
@@ -1394,19 +1057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
-              "Title": "ParentController.cs",
-              "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Parent\\ParentController.cs",
-              "RelativeDocumentMoniker": "SkillTrackPro\\API\\Parent\\ParentController.cs",
-              "ToolTip": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\API\\Parent\\ParentController.cs",
-              "RelativeToolTip": "SkillTrackPro\\API\\Parent\\ParentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T06:30:09.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 64,
               "Title": "SkillTrackPro.csproj",
               "DocumentMoniker": "D:\\FCA-Project\\divzaprojects\\SkillTrackPro\\SkillTrackPro\\SkillTrackPro.csproj",
               "RelativeDocumentMoniker": "SkillTrackPro\\SkillTrackPro.csproj",

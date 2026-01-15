@@ -19,7 +19,7 @@ namespace Domain.Helpers
             // Coach Mappings
              CreateMap<Coach, CoachRegisterDto>().ReverseMap();
              CreateMap<CoachResponseDto, Coach>().ReverseMap();
-            CreateMap<VerifyOtpDto, Coach>().ReverseMap();
+            CreateMap<VerifyOtpRequestDto, Coach>().ReverseMap();
             CreateMap<MarkAttendanceDto, Attendance>();
 
             // Attendance entity → Response DTO

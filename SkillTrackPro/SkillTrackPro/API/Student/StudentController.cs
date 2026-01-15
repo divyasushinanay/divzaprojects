@@ -81,5 +81,17 @@ namespace SkillTrackPro.API.Student
 
             return Ok(new { message = "Student deleted successfully" });
         }
+
+        // GET: api/parents/{parentId}/students
+        [HttpGet("{parentId}/students")]
+        public async Task<IActionResult> GetStudents(Guid parentId)
+        {
+            var students = await _studentService.GetStudentsByParentIdAsync(parentId);
+
+            if (students == null || students.Count == 0)
+                return NotFound("No students found for this parent");
+
+            return Ok(students);
+        }
     }
 }
