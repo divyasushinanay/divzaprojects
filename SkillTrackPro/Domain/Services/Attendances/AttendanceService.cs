@@ -27,29 +27,39 @@ namespace Domain.Services.Attendances
                 throw new ArgumentException("Invalid coach");
 
             if (list == null || !list.Any())
-                return;
+                throw new ArgumentException("Attendance list is empty");
 
             var today = DateTime.UtcNow.Date;
 
             foreach (var item in list)
             {
+                // ✅ Validate Student
+                var studentExists = await _repo.StudentExistsAsync(item.StudentId);
+                if (!studentExists)
+                    throw new Exception($"Student not found: {item.StudentId}");
+
                 var existing = await _repo.GetByStudentAndDateAsync(item.StudentId, today);
 
                 if (existing != null)
                 {
+                    // 🔁 Update attendance
                     existing.IsPresent = item.IsPresent;
                     existing.CoachId = coachId;
+
                     await _repo.UpdateAsync(existing);
                 }
                 else
                 {
-                    await _repo.AddAsync(new Attendance
+                    // ➕ Add new attendance
+                    var attendance = new Attendance
                     {
                         StudentId = item.StudentId,
                         CoachId = coachId,
                         Date = today,
                         IsPresent = item.IsPresent
-                    });
+                    };
+
+                    await _repo.AddAsync(attendance);
                 }
             }
         }
@@ -65,7 +75,7 @@ namespace Domain.Services.Attendances
             return data.Select(a => new AttendanceResponseDto
             {
                 StudentId = a.StudentId,
-                StudentName = a.Student?.FullName,
+                StudentName = a.Student?.FullName ?? "Unknown",
                 CoachId = a.CoachId,
                 Date = a.Date,
                 IsPresent = a.IsPresent
@@ -83,7 +93,7 @@ namespace Domain.Services.Attendances
             return data.Select(a => new AttendanceResponseDto
             {
                 StudentId = a.StudentId,
-                StudentName = a.Student?.FullName,
+                StudentName = a.Student?.FullName ?? "Unknown",
                 CoachId = a.CoachId,
                 Date = a.Date,
                 IsPresent = a.IsPresent

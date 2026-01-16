@@ -51,6 +51,11 @@ namespace Domain.Services.Attendances
             return await q.ToListAsync();
         }
 
+        public async Task<bool> StudentExistsAsync(Guid studentId)
+        {
+            return await _context.Students.AnyAsync(s => s.Id == studentId);
+        }
+
         public async Task<IEnumerable<Attendance>> GetByCoachAsync(Guid coachId, DateTime? from = null, DateTime? to = null)
         {
             var q = _context.Attendances
