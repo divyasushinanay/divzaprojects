@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Services.Academy.Interface
+namespace Domain.Enum
 {
-    internal interface IAcademyRepository
+ 
+        public enum PaymentStatus
     {
+        Paid = 1,
+        Unpaid = 2
     }
 }
+

@@ -1,15 +1,192 @@
 [
   {
-    "ContainingType": "SkillTrackPro.API.Attendance.AttendanceController",
-    "Method": "MarkAttendance",
-    "RelativePath": "api/Attendance/mark",
+    "ContainingType": "SkillTrackPro.API.Academy.AcademyController",
+    "Method": "ApproveCoach",
+    "RelativePath": "api/academy/approve-coach/{coachId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "coachId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillTrackPro.API.Academy.AcademyController",
+    "Method": "ApproveStudent",
+    "RelativePath": "api/academy/approve-student",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "System.Collections.Generic.List\u00601[[Domain.Services.Attendances.DTO.MarkAttendanceDto, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Domain.Services.Academii.Dtos.StudentApprovalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillTrackPro.API.Academy.AcademyController",
+    "Method": "GetApprovedCoaches",
+    "RelativePath": "api/academy/approved-coaches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillTrackPro.API.Academy.AcademyController",
+    "Method": "GetApprovedStudents",
+    "RelativePath": "api/academy/approved-students",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillTrackPro.API.Academy.AcademyController",
+    "Method": "AssignCoach",
+    "RelativePath": "api/academy/assign-coach",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Domain.Services.Academii.Dtos.AssignCoachDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillTrackPro.API.Academy.AcademyController",
+    "Method": "GetAllCoaches",
+    "RelativePath": "api/academy/coaches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillTrackPro.API.Academy.AcademyController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/academy/students",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillTrackPro.API.Attendance.AttendanceController",
+    "Method": "GetStudentAttendanceByCoach",
+    "RelativePath": "api/attendance/coach/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "from",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillTrackPro.API.Attendance.AttendanceController",
+    "Method": "MarkAttendance",
+    "RelativePath": "api/attendance/mark",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Domain.Services.Attendances.DTO.MarkAttendanceRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillTrackPro.API.Attendance.AttendanceController",
+    "Method": "GetAttendanceByParent",
+    "RelativePath": "api/attendance/parent/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "from",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillTrackPro.API.Attendance.AttendanceController",
+    "Method": "GetMyAttendance",
+    "RelativePath": "api/attendance/student",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillTrackPro.API.Auth.AuthController",
+    "Method": "AcademyLogin",
+    "RelativePath": "api/Auth/academy/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Domain.Services.Academii.Dtos.AcademyLoginDto",
         "IsRequired": true
       }
     ],
@@ -132,6 +309,53 @@
       {
         "Name": "dto",
         "Type": "Domain.Services.Coaches.DTO.CoachRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillTrackPro.API.Fees.Domain.Services.Fees.FeeController",
+    "Method": "GetStudentsWithDues",
+    "RelativePath": "api/fees/dues",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillTrackPro.API.Fees.Domain.Services.Fees.FeeController",
+    "Method": "GetParentPayments",
+    "RelativePath": "api/fees/parent/{parentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SkillTrackPro.API.Fees.Domain.Services.Fees.FeeController",
+    "Method": "PayFee",
+    "RelativePath": "api/fees/pay/{parentId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Domain.Services.Fees.DTO.PayFeeRequestDto",
         "IsRequired": true
       }
     ],

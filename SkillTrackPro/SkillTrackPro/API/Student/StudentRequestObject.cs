@@ -4,7 +4,7 @@ namespace SkillTrackPro.API.Student
 {
     public class StudentRequestObject
     {
-      
+            public Guid Id { get; set; }
             public string FullName { get; set; } = string.Empty;
 
             public int Age { get; set; }

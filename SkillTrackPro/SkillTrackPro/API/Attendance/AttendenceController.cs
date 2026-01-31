@@ -8,9 +8,8 @@ using System.Security.Claims;
 
 namespace SkillTrackPro.API.Attendance
 {
-    [Route("api/[controller]")]
     [ApiController]
-    //[Authorize] // requires JWT
+    [Route("api/attendance")]
     public class AttendanceController : ControllerBase
     {
         private readonly IAttendanceService _attendanceService;
@@ -19,29 +18,81 @@ namespace SkillTrackPro.API.Attendance
         {
             _attendanceService = attendanceService;
         }
-        [Authorize(Roles = "Coach")]
+
+        // =====================================
+        // 1️⃣ COACH → MARK ATTENDANCE
+        // =====================================
         [HttpPost("mark")]
         public async Task<IActionResult> MarkAttendance(
-            [FromBody] List<MarkAttendanceDto> dto)
+        [FromBody] MarkAttendanceRequestDto request)
         {
-            if (dto == null || !dto.Any())
-                return BadRequest("No attendance provided.");
+            await _attendanceService.MarkAttendanceAsync(request);
+            return Ok("Attendance marked successfully");
+        }
 
-            // Get CoachId from JWT
-            var coachIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
-            if (coachIdClaim == null)
-                return Unauthorized("Coach not authenticated.");
+        // =====================================
+        // 2️⃣ STUDENT → VIEW OWN ATTENDANCE
+        // =====================================
+        [Authorize(Roles = "Student")]
+        [HttpGet("student")]
+        public async Task<IActionResult> GetMyAttendance(
+            DateTime? from,
+            DateTime? to)
+        {
+            var studentId = GetUserId();
 
-            if (!Guid.TryParse(coachIdClaim.Value, out Guid coachId))
-                return Unauthorized("Invalid coach token.");
+            var result = await _attendanceService
+                .GetAttendanceByStudentAsync(studentId, from, to);
 
-            await _attendanceService.MarkAttendanceAsync(coachId, dto);
+            return Ok(result);
+        }
 
-            return Ok(new
-            {
-                message = "Attendance marked successfully",
-                date = DateTime.UtcNow.Date
-            });
+        // =====================================
+        // 3️⃣ COACH → VIEW STUDENT ATTENDANCE
+        // =====================================
+        [Authorize(Roles = "Coach")]
+        [HttpGet("coach/{studentId}")]
+        public async Task<IActionResult> GetStudentAttendanceByCoach(
+            Guid studentId,
+            DateTime? from,
+            DateTime? to)
+        {
+            var result = await _attendanceService
+                .GetAttendanceByStudentAsync(studentId, from, to);
+
+            return Ok(result);
+        }
+
+        // =====================================
+        // 4️⃣ PARENT → VIEW CHILD ATTENDANCE
+        // =====================================
+        [Authorize(Roles = "Parent")]
+        [HttpGet("parent/{studentId}")]
+        public async Task<IActionResult> GetAttendanceByParent(
+    Guid studentId,
+    DateTime? from,
+    DateTime? to)
+        {
+            var result = await _attendanceService
+                .GetAttendanceByStudentAsync(
+                    studentId,
+                    from?.Date,
+                    to?.Date);
+
+            return Ok(result);
+        }
+
+        // =====================================
+        // 🔐 GET LOGGED-IN USER ID (JWT)
+        // =====================================
+        private Guid GetUserId()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            if (string.IsNullOrEmpty(userId))
+                throw new UnauthorizedAccessException("User not authenticated");
+
+            return Guid.Parse(userId);
         }
     }
 }

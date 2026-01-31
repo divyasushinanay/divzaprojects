@@ -20,6 +20,8 @@ namespace Domain.Models
         public string? Address { get; set; }
         public string? OTP { get; set; }
         public DateTime? OTPExpiry { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public bool IsApproved { get; set; }
 
     }
 }

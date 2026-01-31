@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Services.Academy.Interface
+namespace Domain.Services.Fees.DTO
 {
-    internal interface IAcademyService
+    internal class AdminPaymentDto
     {
     }
 }

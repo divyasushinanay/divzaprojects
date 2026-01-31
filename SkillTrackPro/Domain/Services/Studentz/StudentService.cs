@@ -34,19 +34,19 @@ namespace Domain.Services.Studentz
         }
 
         // GET ALL
-        public async Task<IEnumerable<StudentCreateDto>> GetAllStudentsAsync()
+        public async Task<IEnumerable<StudentResponseDto>> GetAllStudentsAsync()
         {
             var students = await _repository.GetAllAsync();
-            return _mapper.Map<IEnumerable<StudentCreateDto>>(students);
+            return _mapper.Map<IEnumerable<StudentResponseDto>>(students);
         }
 
         // GET BY ID
-        public async Task<StudentCreateDto?> GetStudentByIdAsync(Guid id)
+        public async Task<StudentResponseDto?> GetStudentByIdAsync(Guid id)
         {
             var student = await _repository.GetByIdAsync(id);
             if (student == null) return null;
 
-            return _mapper.Map<StudentCreateDto>(student);
+            return _mapper.Map<StudentResponseDto>(student);
         }
 
         // UPDATE
@@ -71,9 +71,12 @@ namespace Domain.Services.Studentz
             return true;
         }
 
-        public async Task<List<Student>> GetStudentsByParentIdAsync(Guid parentId)
+        public async Task<List<StudentResponseDto>> GetStudentsByParentIdAsync(Guid parentId)
         {
-            return await _repository.GetByParentIdAsync(parentId);
+            var students = await _repository.GetByParentIdAsync(parentId);
+            return _mapper.Map<List<StudentResponseDto>>(students);
         }
+
+       
     }
 }

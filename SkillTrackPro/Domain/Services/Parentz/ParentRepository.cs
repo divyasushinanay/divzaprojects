@@ -20,16 +20,31 @@ namespace Domain.Services.Parentz
             _context = context;
         }
 
+        public async Task<IEnumerable<Parent>> GetAllParentsAsync()
+        {
+            return await _context.Parents
+                .Select(p => new Parent
+                {
+                    Id = p.Id,
+                    FullName = p.FullName,
+                    Email = p.Email,
+                    PhoneNumber = p.PhoneNumber ?? "",
+                    Address = p.Address ?? "",
+                    OTP = p.OTP,
+                    OTPExpiry = p.OTPExpiry,
+                    IsEmailVerified = p.IsEmailVerified,
+                    CreatedAt = p.CreatedAt
+                })
+                .ToListAsync();
+        }
+
+
+
         public async Task<Parent> AddParentAsync(Parent parent)
         {
             _context.Parents.Add(parent);
             await _context.SaveChangesAsync();
             return parent;
-        }
-
-        public async Task<IEnumerable<Parent>> GetAllParentsAsync()
-        {
-            return await _context.Parents.ToListAsync();
         }
 
         public async Task<Parent?> GetParentByIdAsync(Guid id)
@@ -55,6 +70,8 @@ namespace Domain.Services.Parentz
                 .Where(s => s.ParentId == parentId)
                 .ToListAsync();
         }
+
+        
     }
 }
 

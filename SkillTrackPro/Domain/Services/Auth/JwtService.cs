@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Domain.Enum;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -10,48 +11,76 @@ using System.Threading.Tasks;
 
 namespace Domain.Services.Auth
 {
+
+
+
     //public class JwtService : IJwtService
-    //   {
-    //       private readonly IConfiguration _config;
+    //{
+    //    private readonly IConfiguration _config;
 
-    //       public JwtService(IConfiguration config)
-    //       {
-    //           _config = config;
-    //       }
+    //    public JwtService(IConfiguration config)
+    //    {
+    //        _config = config;
+    //    }
 
-    //       public string GenerateToken(Guid id, string name, string email, string role)
-    //       {
-    //           var claims = new[]
-    //           {
-    //               new Claim("id", id.ToString()),
-    //               new Claim("name", name),
-    //               new Claim("email", email),
-    //               new Claim(ClaimTypes.Role, role)
-    //           };
+    //    public string GenerateToken(Guid id, string name, string email, string role)
+    //    {
+    //        var claims = new[]
+    //        {
+    //            // 🔑 VERY IMPORTANT
+    //            new Claim(ClaimTypes.NameIdentifier, id.ToString()),
 
-    //           // FIXED: Correct section name
-    //           var key = new SymmetricSecurityKey(
-    //               Encoding.UTF8.GetBytes(_config["Jwt:Key"])
-    //           );
+    //            new Claim(ClaimTypes.Name, name),
+    //            new Claim(ClaimTypes.Email, email),
 
-    //           var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+    //            // 🔐 Role-based authorization
+    //            new Claim(ClaimTypes.Role, role)
+    //        };
 
-    //           var token = new JwtSecurityToken(
-    //               issuer: _config["Jwt:Issuer"],
-    //               audience: _config["Jwt:Audience"],
-    //               claims: claims,
-    //               expires: DateTime.Now.AddHours(5),
-    //               signingCredentials: creds
-    //           );
+    //        var key = new SymmetricSecurityKey(
+    //            Encoding.UTF8.GetBytes(_config["Jwt:Key"])
+    //        );
 
-    //           return new JwtSecurityTokenHandler().WriteToken(token);
-    //       }
+    //        var creds = new SigningCredentials(
+    //            key,
+    //            SecurityAlgorithms.HmacSha256
+    //        );
 
-    //       public string GenerateToken(Guid id, string email, string v)
-    //       {
-    //           throw new NotImplementedException();
-    //       }
-    //   }
+    //        var token = new JwtSecurityToken(
+    //            issuer: _config["Jwt:Issuer"],
+    //            audience: _config["Jwt:Audience"],
+    //            claims: claims,
+    //            expires: DateTime.UtcNow.AddHours(5),
+    //            signingCredentials: creds
+    //        );
+
+    //        return new JwtSecurityTokenHandler().WriteToken(token);
+    //    }
+
+    //    public string GenerateAcademyToken(int id, string username, string? email, Role role)
+    //    {
+    //        var claims = new[]
+    //        {
+    //        new Claim(ClaimTypes.NameIdentifier, id.ToString()),
+    //        new Claim(ClaimTypes.Name, username),
+    //        new Claim(ClaimTypes.Email, email ?? ""),
+    //        new Claim(ClaimTypes.Role, role.ToString()) // ✅ Convert enum to string
+    //    };
+
+    //        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+    //        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+    //        var token = new JwtSecurityToken(
+    //            issuer: _config["Jwt:Issuer"],
+    //            audience: _config["Jwt:Audience"],
+    //            claims: claims,
+    //            expires: DateTime.UtcNow.AddHours(5),
+    //            signingCredentials: creds
+    //        );
+
+    //        return new JwtSecurityTokenHandler().WriteToken(token);
+    //    }
+    //}
 
     public class JwtService : IJwtService
     {
@@ -64,16 +93,32 @@ namespace Domain.Services.Auth
 
         public string GenerateToken(Guid id, string name, string email, string role)
         {
-            var claims = new List<Claim>
+            var claims = new[]
             {
-                // 🔑 VERY IMPORTANT (Used to get CoachId)
                 new Claim(ClaimTypes.NameIdentifier, id.ToString()),
-
                 new Claim(ClaimTypes.Name, name),
                 new Claim(ClaimTypes.Email, email),
                 new Claim(ClaimTypes.Role, role)
             };
 
+            return GenerateJwt(claims);
+        }
+
+        public string GenerateAcademyToken(Guid id, string username, string email, Role role)
+        {
+            var claims = new[]
+            {
+                new Claim(ClaimTypes.NameIdentifier, id.ToString()),
+                new Claim("username", username),
+                new Claim(ClaimTypes.Email, email),
+                new Claim(ClaimTypes.Role, role.ToString())
+            };
+
+            return GenerateJwt(claims);
+        }
+
+        private string GenerateJwt(Claim[] claims)
+        {
             var key = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(_config["Jwt:Key"]!)
             );
@@ -84,16 +129,11 @@ namespace Domain.Services.Auth
                 issuer: _config["Jwt:Issuer"],
                 audience: _config["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.UtcNow.AddHours(5),
+                expires: DateTime.UtcNow.AddHours(2),
                 signingCredentials: creds
             );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
-        }
-
-        public string GenerateToken(Guid id, string email, string v)
-        {
-            throw new NotImplementedException();
         }
     }
 }

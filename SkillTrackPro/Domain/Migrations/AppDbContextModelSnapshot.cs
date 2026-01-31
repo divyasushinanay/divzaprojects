@@ -24,11 +24,9 @@ namespace Domain.Migrations
 
             modelBuilder.Entity("Domain.Models.Academy", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ContactNumber")
                         .HasColumnType("nvarchar(max)");
@@ -54,12 +52,11 @@ namespace Domain.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 1,
-                            ContactNumber = "+919000000000",
-                            Email = "admin@academy.com",
-                            Name = "Academy Admin",
-                            PasswordHash = "change_me_hash",
-                            Username = "admin@academy"
+                            Id = new Guid("1554084f-075b-4737-8d33-9796c05d8e43"),
+                            Email = "academy@mail.com",
+                            Name = "Main Academy",
+                            PasswordHash = "$2a$11$lYA7RHChhDwFn1.Ogp6EFO/fYOWT.alOIysFI9IP8tqIJ8mWaQg.y",
+                            Username = "academyadmin"
                         });
                 });
 
@@ -99,6 +96,9 @@ namespace Domain.Migrations
                     b.Property<string>("Address")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
@@ -110,6 +110,9 @@ namespace Domain.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsApproved")
                         .HasColumnType("bit");
 
                     b.Property<string>("OTP")
@@ -166,28 +169,33 @@ namespace Domain.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<decimal>("Amount")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<string>("Mode")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("PaymentDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("StudentId")
+                    b.Property<int>("Month")
                         .HasColumnType("int");
 
-                    b.Property<Guid?>("StudentId1")
+                    b.Property<DateTime>("PaidOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("ParentId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("StudentId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Year")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("StudentId1");
+                    b.HasIndex("ParentId");
+
+                    b.HasIndex("StudentId", "Year", "Month")
+                        .IsUnique();
 
                     b.ToTable("FeePayments");
                 });
@@ -199,7 +207,6 @@ namespace Domain.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Address")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedAt")
@@ -217,14 +224,12 @@ namespace Domain.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("OTP")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("OTPExpiry")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("PhoneNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -284,8 +289,14 @@ namespace Domain.Migrations
                     b.Property<int>("BloodGroup")
                         .HasColumnType("int");
 
+                    b.Property<Guid?>("CoachId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<int>("CoachingSlot")
                         .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("datetime2");
@@ -299,6 +310,9 @@ namespace Domain.Migrations
 
                     b.Property<double>("Height")
                         .HasColumnType("float");
+
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("bit");
 
                     b.Property<Guid>("ParentId")
                         .HasColumnType("uniqueidentifier");
@@ -316,6 +330,8 @@ namespace Domain.Migrations
                         .HasColumnType("float");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CoachId");
 
                     b.HasIndex("ParentId");
 
@@ -345,9 +361,19 @@ namespace Domain.Migrations
 
             modelBuilder.Entity("Domain.Models.FeePayment", b =>
                 {
+                    b.HasOne("Domain.Models.Parent", "Parent")
+                        .WithMany()
+                        .HasForeignKey("ParentId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.HasOne("Domain.Models.Student", "Student")
                         .WithMany()
-                        .HasForeignKey("StudentId1");
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Parent");
 
                     b.Navigation("Student");
                 });
@@ -369,6 +395,10 @@ namespace Domain.Migrations
 
             modelBuilder.Entity("Domain.Models.Student", b =>
                 {
+                    b.HasOne("Domain.Models.Coach", "Coach")
+                        .WithMany()
+                        .HasForeignKey("CoachId");
+
                     b.HasOne("Domain.Models.Parent", "Parent")
                         .WithMany()
                         .HasForeignKey("ParentId")
@@ -378,6 +408,8 @@ namespace Domain.Migrations
                     b.HasOne("Domain.Models.Parent", null)
                         .WithMany("Students")
                         .HasForeignKey("ParentId1");
+
+                    b.Navigation("Coach");
 
                     b.Navigation("Parent");
                 });

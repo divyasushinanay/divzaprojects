@@ -20,11 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="API\Academy\RequestObjects\" />
+    <Folder Include="API\Academi\RequestObjects\" />
     <Folder Include="API\Attendance\RequestObjects\" />
     <Folder Include="API\Auth\Requestobject\" />
     <Folder Include="API\Event\RequestObject\" />
-    <Folder Include="API\Fees\RequestObject\" />
     <Folder Include="API\Parent\RequestObjects\" />
     <Folder Include="API\Performance\RequestObject\" />
   </ItemGroup>

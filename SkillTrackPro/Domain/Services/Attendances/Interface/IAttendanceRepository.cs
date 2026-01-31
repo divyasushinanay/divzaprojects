@@ -10,11 +10,28 @@ namespace Domain.Services.Attendances.Interface
 {
     public interface IAttendanceRepository
     {
-        Task<Attendance> AddAsync(Attendance attendance);
-        Task<Attendance> UpdateAsync(Attendance attendance);
+        //Task<Attendance> AddAsync(Attendance attendance);
+        //Task<Attendance> UpdateAsync(Attendance attendance);
+        //Task<Attendance?> GetByStudentAndDateAsync(Guid studentId, DateTime date);
+        //Task<bool> StudentExistsAsync(Guid studentId);
+        //Task<IEnumerable<Attendance>> GetByStudentAsync(Guid studentId, DateTime? from = null, DateTime? to = null);
+
+        //Task<IEnumerable<Attendance>> GetByCoachAsync(Guid coachId, DateTime? from = null, DateTime? to = null);
+
         Task<Attendance?> GetByStudentAndDateAsync(Guid studentId, DateTime date);
-        Task<bool> StudentExistsAsync(Guid studentId);
-        Task<IEnumerable<Attendance>> GetByStudentAsync(Guid studentId, DateTime? from = null, DateTime? to = null);
-        Task<IEnumerable<Attendance>> GetByCoachAsync(Guid coachId, DateTime? from = null, DateTime? to = null);
+
+        Task<IEnumerable<Attendance>> GetByStudentAsync(Guid studentId,
+            DateTime? from, DateTime? to);
+
+        Task<IEnumerable<Attendance>> GetByCoachAsync(Guid coachId,
+            DateTime? from, DateTime? to);
+
+        Task<Student?> GetStudentByIdAsync(Guid studentId);
+
+        Task AddAsync(Attendance attendance);
+        Task UpdateAsync(Attendance attendance);
+
+
+
     }
 }

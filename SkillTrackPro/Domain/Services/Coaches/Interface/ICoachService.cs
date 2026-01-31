@@ -26,7 +26,9 @@ namespace Domain.Services.Coaches.Interface
                 Task<IEnumerable<Coach>> GetAllCoachesAsync();
                 Task<Coach?> GetCoachByIdAsync(Guid id);
                 Task<bool> DeleteCoachAsync(Guid id);
-               // Task<bool> SendOtpAsync(string email);
-               //Task<string?> VerifyOtpAsync(VerifyOtpDto dto);
+               Task<IEnumerable<Coach>> GetApprovedCoachesAsync();
+               Task<bool> ApproveCoachAsync(Guid coachId);
+        // Task<bool> SendOtpAsync(string email);
+        //Task<string?> VerifyOtpAsync(VerifyOtpDto dto);
     }
         }

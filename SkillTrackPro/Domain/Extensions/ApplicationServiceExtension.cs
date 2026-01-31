@@ -3,9 +3,7 @@ using Domain.Helpers;
 
 using Domain.Models;
 
-
-using Domain.Services.Academy;
-using Domain.Services.Academy.Interface;
+using Domain.Services.Academii.Interface;
 using Domain.Services.Attendances;
 using Domain.Services.Attendances.Interface;
 
@@ -27,6 +25,7 @@ using Domain.Services.Studentz.Interface;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Domain.Services.Academii;
 
 
 namespace Domain.Extensions
@@ -51,7 +50,7 @@ namespace Domain.Extensions
             services.AddScoped<IFeesRepository, FeesRepository>();
             services.AddScoped<IPerformanceRepository, PerformanceRepository>();
             services.AddScoped<IStudentRepository, StudentRepository>();
-         services.AddScoped<IStudentService, StudentService>();
+            services.AddScoped<IStudentService, StudentService>();
 
             // Register Services
 

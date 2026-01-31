@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain.Services.Academii.Dtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,7 @@ namespace Domain.Services.Auth
 
         Task<string> SendParentOtpAsync(string email);
         Task<string> VerifyParentOtpAsync(string email, string otp);
+        Task<string> AcademyLoginAsync(AcademyLoginDto dto);
     }
     }
 

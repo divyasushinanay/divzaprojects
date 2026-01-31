@@ -18,86 +18,107 @@ namespace Domain.Services.Attendances
             _repo = repo;
         }
 
-        // ===============================
-        // 1️⃣ MARK ATTENDANCE (BY COACH)
-        // ===============================
-        public async Task MarkAttendanceAsync(Guid coachId, IEnumerable<MarkAttendanceDto> list)
+        public async Task MarkAttendanceAsync(MarkAttendanceRequestDto request)
         {
-            if (coachId == Guid.Empty)
-                throw new ArgumentException("Invalid coach");
+            if (request.CoachId == Guid.Empty)
+                throw new ArgumentException("CoachId is required");
 
-            if (list == null || !list.Any())
-                throw new ArgumentException("Attendance list is empty");
+            if (request.AttendanceList == null || !request.AttendanceList.Any())
+                throw new ArgumentException("Attendance list cannot be empty");
 
-            var today = DateTime.UtcNow.Date;
+            var today = DateTime.UtcNow.Date; // ✅ DATE ONLY
 
-            foreach (var item in list)
+            foreach (var item in request.AttendanceList)
             {
-                // ✅ Validate Student
-                var studentExists = await _repo.StudentExistsAsync(item.StudentId);
-                if (!studentExists)
-                    throw new Exception($"Student not found: {item.StudentId}");
+                if (item.StudentId == Guid.Empty)
+                    continue;
 
-                var existing = await _repo.GetByStudentAndDateAsync(item.StudentId, today);
-
-                if (existing != null)
+                var attendance = new Attendance
                 {
-                    // 🔁 Update attendance
-                    existing.IsPresent = item.IsPresent;
-                    existing.CoachId = coachId;
+                    StudentId = item.StudentId,   // ✅ from list item
+                    CoachId = request.CoachId,    // ✅ from request
+                    Date = today,                 // ✅ date only
+                    IsPresent = item.IsPresent    // ✅ from list item
+                };
 
-                    await _repo.UpdateAsync(existing);
-                }
-                else
-                {
-                    // ➕ Add new attendance
-                    var attendance = new Attendance
-                    {
-                        StudentId = item.StudentId,
-                        CoachId = coachId,
-                        Date = today,
-                        IsPresent = item.IsPresent
-                    };
-
-                    await _repo.AddAsync(attendance);
-                }
+                await _repo.AddAsync(attendance);
             }
         }
 
+
         // =====================================
-        // 2️⃣ GET ATTENDANCE BY STUDENT
+        // 2️⃣ VIEW ATTENDANCE (STUDENT)
         // =====================================
         public async Task<IEnumerable<AttendanceResponseDto>>
             GetAttendanceByStudentAsync(Guid studentId, DateTime? from = null, DateTime? to = null)
         {
+            if (studentId == Guid.Empty)
+                throw new ArgumentException("StudentId is required");
+
             var data = await _repo.GetByStudentAsync(studentId, from, to);
 
             return data.Select(a => new AttendanceResponseDto
             {
                 StudentId = a.StudentId,
-                StudentName = a.Student?.FullName ?? "Unknown",
+                StudentName = a.Student?.FullName ?? string.Empty,
                 CoachId = a.CoachId,
-                Date = a.Date,
+                Date = a.Date.ToString("yyyy-MM-dd"),
                 IsPresent = a.IsPresent
             });
         }
 
         // =====================================
-        // 3️⃣ GET ATTENDANCE BY COACH
+        // 3️⃣ VIEW ATTENDANCE (COACH)
         // =====================================
         public async Task<IEnumerable<AttendanceResponseDto>>
             GetAttendanceByCoachAsync(Guid coachId, DateTime? from = null, DateTime? to = null)
         {
+            if (coachId == Guid.Empty)
+                throw new ArgumentException("CoachId is required");
+
             var data = await _repo.GetByCoachAsync(coachId, from, to);
 
             return data.Select(a => new AttendanceResponseDto
             {
                 StudentId = a.StudentId,
-                StudentName = a.Student?.FullName ?? "Unknown",
+                StudentName = a.Student?.FullName ?? string.Empty,
                 CoachId = a.CoachId,
-                Date = a.Date,
+                Date = a.Date.ToString("yyyy-MM-dd"),
                 IsPresent = a.IsPresent
             });
         }
+
+        // =====================================
+        // 4️⃣ VIEW ATTENDANCE (PARENT)
+        // =====================================
+        public async Task<IEnumerable<AttendanceResponseDto>>
+            GetAttendanceByParentAsync(Guid parentId, Guid studentId,
+                                       DateTime? from = null, DateTime? to = null)
+        {
+            if (parentId == Guid.Empty)
+                throw new ArgumentException("ParentId is required");
+
+            if (studentId == Guid.Empty)
+                throw new ArgumentException("StudentId is required");
+
+            // 🔐 Authorization check
+            var student = await _repo.GetStudentByIdAsync(studentId);
+
+            if (student == null || student.ParentId != parentId)
+                throw new UnauthorizedAccessException("Access denied");
+
+            var data = await _repo.GetByStudentAsync(studentId, from, to);
+
+            return data.Select(a => new AttendanceResponseDto
+            {
+                StudentId = a.StudentId,
+                StudentName = student.FullName,
+                CoachId = a.CoachId,
+                Date = a.Date.ToString("yyyy-MM-dd"),
+                IsPresent = a.IsPresent
+            });
+        }
+
+       
     }
 }

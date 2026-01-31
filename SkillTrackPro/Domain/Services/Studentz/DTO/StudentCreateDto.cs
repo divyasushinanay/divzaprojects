@@ -22,6 +22,7 @@ namespace Domain.Services.Studentz.DTO
             public double Height { get; set; }
             public double Weight { get; set; }
 
-            public Guid ParentId { get; set; }   // ✅ GUID
-        }
+            public Guid ParentId { get; set; }   
+            public string? PhotoUrl { get; set; }
+    }
     }

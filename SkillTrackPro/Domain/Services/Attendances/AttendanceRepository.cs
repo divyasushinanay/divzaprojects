@@ -67,5 +67,20 @@ namespace Domain.Services.Attendances
 
             return await q.ToListAsync();
         }
+
+        public Task<Student?> GetStudentByIdAsync(Guid studentId)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IAttendanceRepository.AddAsync(Attendance attendance)
+        {
+            return AddAsync(attendance);
+        }
+
+        Task IAttendanceRepository.UpdateAsync(Attendance attendance)
+        {
+            return UpdateAsync(attendance);
+        }
     }
 }

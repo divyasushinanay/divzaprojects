@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Services.Attendances.DTO
 {
-   public class MarkAttendanceRequstDto
+
+    public class MarkAttendanceRequestDto
     {
-       
+        public Guid CoachId { get; set; }
         public List<MarkAttendanceDto> AttendanceList { get; set; } = new();
     }
 }
+

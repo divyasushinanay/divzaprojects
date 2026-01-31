@@ -32,8 +32,14 @@ namespace Domain.Models
 
         public string? PhotoUrl { get; set; }
 
+        public bool IsApproved { get; set; } = false;
+
         public Guid ParentId { get; set; }
         public Parent? Parent { get; set; }
+        public Guid? CoachId { get; set; }
+        public Coach? Coach { get; set; }
+
+        public DateTime CreatedAt { get; set; }
     }
 
 

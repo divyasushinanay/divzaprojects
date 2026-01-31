@@ -1,8 +1,8 @@
-﻿using Domain.Services.Auth;
-
+﻿using Domain.Services.Academii.Dtos;
+using Domain.Services.Auth;
+using Domain.Services.Auth.Dto;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Domain.Services.Auth.Dto;
 
 namespace SkillTrackPro.API.Auth
 {
@@ -47,8 +47,17 @@ namespace SkillTrackPro.API.Auth
             var token = await _authService.VerifyParentOtpAsync(request.Email, request.Otp);
             return Ok(new { message = "Login successful", token });
         }
+
+
+        [HttpPost("academy/login")]
+        public async Task<IActionResult> AcademyLogin([FromBody] AcademyLoginDto dto)
+        {
+            var token = await _authService.AcademyLoginAsync(dto);
+            return Ok(new { token });
+        }
     }
-}
+    }
+
 
 
 

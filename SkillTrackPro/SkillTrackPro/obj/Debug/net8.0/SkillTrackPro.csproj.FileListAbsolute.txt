@@ -147,3 +147,4 @@ D:\FCA-Project\divzaprojects\SkillTrackPro\SkillTrackPro\obj\Debug\net8.0\refint
 D:\FCA-Project\divzaprojects\SkillTrackPro\SkillTrackPro\obj\Debug\net8.0\SkillTrackPro.pdb
 D:\FCA-Project\divzaprojects\SkillTrackPro\SkillTrackPro\obj\Debug\net8.0\SkillTrackPro.genruntimeconfig.cache
 D:\FCA-Project\divzaprojects\SkillTrackPro\SkillTrackPro\obj\Debug\net8.0\ref\SkillTrackPro.dll
+D:\FCA-Project\divzaprojects\SkillTrackPro\SkillTrackPro\obj\Debug\net8.0\SkillTrackPro.MvcApplicationPartsAssemblyInfo.cs

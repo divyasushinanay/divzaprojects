@@ -1,7 +1,9 @@
 ﻿
 
 
+using Domain.Enum;
 using Domain.Models;
+using Domain.Services.Academii.Dtos;
 using Domain.Services.Auth;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -184,6 +186,29 @@ public class AuthService : IAuthService
     // PARENT LOGIN
     // =======================
 
+    //public async Task<string> SendParentOtpAsync(string email)
+    //{
+    //    var parent = await _context.Parents
+    //        .FirstOrDefaultAsync(p => p.Email == email);
+
+    //    if (parent == null)
+    //        throw new Exception("Parent not found");
+
+    //    string otp = new Random().Next(100000, 999999).ToString();
+
+    //    parent.OTP = otp;
+    //    parent.OTPExpiry = DateTime.UtcNow.AddMinutes(5);
+
+    //    await _context.SaveChangesAsync();
+
+    //    await _emailService.SendEmailAsync(
+    //        parent.Email!,
+    //        "Your OTP",
+    //        $"Your login OTP is: {otp}");
+
+    //    return "OTP sent successfully";
+    //}
+
     public async Task<string> SendParentOtpAsync(string email)
     {
         var parent = await _context.Parents
@@ -192,7 +217,7 @@ public class AuthService : IAuthService
         if (parent == null)
             throw new Exception("Parent not found");
 
-        string otp = new Random().Next(100000, 999999).ToString();
+        var otp = new Random().Next(100000, 999999).ToString();
 
         parent.OTP = otp;
         parent.OTPExpiry = DateTime.UtcNow.AddMinutes(5);
@@ -201,13 +226,14 @@ public class AuthService : IAuthService
 
         await _emailService.SendEmailAsync(
             parent.Email!,
-            "Your OTP",
-            $"Your login OTP is: {otp}");
+            "Verify your email",
+            $"Your OTP is {otp}"
+        );
 
         return "OTP sent successfully";
     }
 
-    public async Task<string> VerifyParentOtpAsync(string email, string otp)
+     public async Task<string> VerifyParentOtpAsync(string email, string otp)
     {
         var parent = await _context.Parents
             .FirstOrDefaultAsync(p => p.Email == email);
@@ -218,21 +244,75 @@ public class AuthService : IAuthService
         if (parent.OTP != otp || parent.OTPExpiry < DateTime.UtcNow)
             throw new Exception("Invalid or expired OTP");
 
-        string token = _jwtService.GenerateToken(
-            parent.Id,
-            parent.FullName,
-            parent.Email!,
-            "Parent"
-        );
-
+        parent.IsEmailVerified = true;
         parent.OTP = null;
         parent.OTPExpiry = null;
 
         await _context.SaveChangesAsync();
 
-        return token;
+        return _jwtService.GenerateToken(
+            parent.Id,
+            parent.FullName,
+            parent.Email!,
+            "Parent"
+        );
     }
+    //public async Task<string> AcademyLoginAsync(AcademyLoginDto dto)
+    //{
+    //    var academy = await _context.Academies
+    //        .FirstOrDefaultAsync(a => a.Username == dto.Username);
+
+    //    if (academy == null)
+    //        throw new Exception("Invalid username or password");
+
+    //    bool isPasswordValid = BCrypt.Net.BCrypt.Verify(
+    //        dto.Password,
+    //        academy.PasswordHash
+    //    );
+
+    //    if (!isPasswordValid)
+    //        throw new Exception("Invalid username or password");
+
+    //    return _jwtService.GenerateAcademyToken(
+    //        academy.Id,
+    //        academy.Username,
+    //        academy.Email!,
+    //        Role.Admin
+    //    );
+    //}
+
+
+    public async Task<string> AcademyLoginAsync(AcademyLoginDto dto)
+    {
+        // 1️⃣ Find academy by username OR email
+        var academy = await _context.Academies
+        .FirstOrDefaultAsync(a =>
+            a.Username == dto.UsernameOrEmail ||
+            a.Email == dto.UsernameOrEmail
+        );
+
+        if (academy == null)
+            throw new Exception("Invalid username or password");
+
+        // 2️⃣ Verify password
+        bool isPasswordValid = BCrypt.Net.BCrypt.Verify(
+            dto.Password,
+            academy.PasswordHash
+        );
+
+        if (!isPasswordValid)
+            throw new Exception("Invalid username or password");
+
+        // 3️⃣ Generate JWT token (ADMIN)
+        return _jwtService.GenerateAcademyToken(
+     academy.Id,
+     academy.Username,
+     academy.Email ?? "",
+     Role.Admin
+ );
+    }
+
+
+
 }
-
-
 

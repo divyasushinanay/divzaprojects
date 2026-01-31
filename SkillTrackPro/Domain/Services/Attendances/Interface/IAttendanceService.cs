@@ -11,11 +11,17 @@ namespace Domain.Services.Attendances.Interface
 {
     public interface IAttendanceService
     {
-        
-        Task MarkAttendanceAsync(Guid coachId, IEnumerable<MarkAttendanceDto> list);
+        Task MarkAttendanceAsync(MarkAttendanceRequestDto request);
 
-        Task<IEnumerable<AttendanceResponseDto>> GetAttendanceByStudentAsync(Guid studentId, DateTime? from = null, DateTime? to = null);
+        Task<IEnumerable<AttendanceResponseDto>>
+            GetAttendanceByStudentAsync(Guid studentId, DateTime? from = null, DateTime? to = null);
 
-        Task<IEnumerable<AttendanceResponseDto>> GetAttendanceByCoachAsync(Guid coachId, DateTime? from = null, DateTime? to = null);
+        Task<IEnumerable<AttendanceResponseDto>>
+            GetAttendanceByCoachAsync(Guid coachId, DateTime? from = null, DateTime? to = null);
+
+        Task<IEnumerable<AttendanceResponseDto>>
+            GetAttendanceByParentAsync(Guid parentId, Guid studentId,
+                                       DateTime? from = null, DateTime? to = null);
     }
 }
+

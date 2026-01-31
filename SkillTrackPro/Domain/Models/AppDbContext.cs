@@ -10,6 +10,7 @@ namespace Domain.Models
 {
     public class AppDbContext : DbContext
     {
+
         public AppDbContext(DbContextOptions<AppDbContext> opts) : base(opts) { }
 
         public DbSet<Academy> Academies { get; set; } = null!;
@@ -24,25 +25,56 @@ namespace Domain.Models
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-
-            // Example constraints and relationships
+            // ================= STUDENT → PARENT =================
             builder.Entity<Student>()
-                 .HasOne(s => s.Parent)
-                 .WithMany()            // Parent has NO Students list in your model
-                 .HasForeignKey(s => s.ParentId)
-                 .OnDelete(DeleteBehavior.Cascade);
+                .HasOne(s => s.Parent)
+                .WithMany()
+                .HasForeignKey(s => s.ParentId)
+                .OnDelete(DeleteBehavior.Cascade);
 
+            // ================= FEEPAYMENT → STUDENT =================
+            builder.Entity<FeePayment>()
+                .HasOne(fp => fp.Student)
+                .WithMany()
+                .HasForeignKey(fp => fp.StudentId)
+                .OnDelete(DeleteBehavior.Cascade);
 
-            // Seed a default Admin (optional) — use hashed password in real app
-            builder.Entity<Academy>().HasData(new Academy
-            {
-                Id = 1,
-                Username = "admin@academy",
-                PasswordHash = "change_me_hash", // replace with real hashed pw
-                Name = "Academy Admin",
-                Email = "admin@academy.com",
-                ContactNumber = "+919000000000"
-            });
+            // ================= FEEPAYMENT → PARENT =================
+            builder.Entity<FeePayment>()
+                .HasOne(fp => fp.Parent)
+                .WithMany()
+                .HasForeignKey(fp => fp.ParentId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            // ================= UNIQUE PAYMENT PER MONTH =================
+            builder.Entity<FeePayment>()
+                .HasIndex(p => new { p.StudentId, p.Year, p.Month })
+                .IsUnique();
+
+            // ================= ENUM STORAGE =================
+            builder.Entity<FeePayment>()
+                .Property(p => p.Status)
+                .HasConversion<int>();
+
+            // ================= DECIMAL SAFETY =================
+            builder.Entity<FeePayment>()
+                .Property(p => p.Amount)
+                .HasPrecision(18, 2);
+
+            //         // ================= SEED DATA =================
+            //
+            //   
+            builder.Entity<Academy>().HasData(
+     new Academy
+     {
+         Id = Guid.NewGuid(),
+         Username = "academyadmin",
+         Email = "academy@mail.com",
+         PasswordHash = BCrypt.Net.BCrypt.HashPassword("Admin@123"),
+         Name = "Main Academy"
+     }
+ );
         }
     }
 }
+

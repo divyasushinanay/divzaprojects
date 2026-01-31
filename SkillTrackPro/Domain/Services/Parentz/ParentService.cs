@@ -40,6 +40,12 @@ namespace Domain.Services.Parentz
             return await _repo.GetAllParentsAsync();
         }
 
+
+      
+
+
+
+
         public async Task<Parent?> GetParentByIdAsync(Guid id)
         {
             return await _repo.GetParentByIdAsync(id);

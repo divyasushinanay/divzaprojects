@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkillTrackPro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+daaa8bccf4fe56c59a7121681b129dd46716075f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1751dacbeaa0544e1e36a438b1f4ef638803265c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkillTrackPro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkillTrackPro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

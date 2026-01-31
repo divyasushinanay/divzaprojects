@@ -12,16 +12,16 @@ namespace Domain.Services.Studentz.Interface
     {
         Task<Guid> CreateStudentAsync(StudentCreateDto dto);
 
-        Task<IEnumerable<StudentCreateDto>> GetAllStudentsAsync();
+        Task<IEnumerable<StudentResponseDto>> GetAllStudentsAsync();
 
-        Task<StudentCreateDto?> GetStudentByIdAsync(Guid id);
+        Task<StudentResponseDto?> GetStudentByIdAsync(Guid id);
 
         Task<bool> UpdateStudentAsync(Guid id, StudentUpdateDto dto);
 
         Task<bool> DeleteStudentAsync(Guid id);
 
 
-        Task<List<Student>> GetStudentsByParentIdAsync(Guid parentId);
+        Task<List<StudentResponseDto>> GetStudentsByParentIdAsync(Guid parentId);
     }
        
 }
